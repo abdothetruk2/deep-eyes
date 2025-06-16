@@ -64,6 +64,8 @@ app: {
    titleTemplate: '%s | Deep‑eyes',
    title: 'Professional Development Services',
    meta: [
+
+          { name: 'facebook-domain-verification', content: 'fcznsoffwl1dbawl9n9f13ks8prpsp' },
      { charset: 'utf-8' },
      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
      {
