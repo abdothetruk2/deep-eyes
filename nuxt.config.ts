@@ -50,13 +50,11 @@ export default defineNuxtConfig({
  },
 
  sitemap: {
-   hostname: 'https://deep-eyes.online',
-   gzip: true,
-   routes: [
-     '/',
-     '/about',
-     '/blog',
-     '/contact'
+  siteUrl: 'https://deep-eyes.online', // ✅ this is required!   gzip: true,
+     gzip: true,
+    routes: [
+       "/"
+   
      // you can also dynamically generate routes here if you have a CMS
    ]
  },
