@@ -13,15 +13,14 @@ export default defineNuxtConfig({
    '@nuxtjs/sitemap',
  ],
 
- runtimeConfig: {
-   public: {
-     siteUrl: 'https://deep-eyes.online',
-     siteName: 'Deep‑eyes',
-     siteDescription: 'Deep‑eyes provides cutting‑edge development services for modern businesses: web development, mobile apps, and digital solutions.',
-     twitterHandle: '@yourTwitter',       // ← replace with your Twitter handle
-     socialImage: '/og-image.png',        // ← path to a default OG image
-   }
- },
+ site: {
+    url: 'https://deep-eyes.online', // ✅ Required!
+    name: 'Deep‑eyes',
+    description:
+      'Deep‑eyes provides cutting‑edge development services for modern businesses: web development, mobile apps, and digital solutions.',
+    image: '/og-image.png',
+    language: 'en' // optional, defaults to 'en'
+  },
 
  googleFonts: {
    families: {
@@ -36,7 +35,7 @@ export default defineNuxtConfig({
 
  nitro: {
    prerender: {
-     routes: ['/', '/', '/', '/']
+     routes: ['/', '/about', '/blog', '/contact']
    }
  },
 
@@ -50,13 +49,14 @@ export default defineNuxtConfig({
  },
 
  sitemap: {
-  siteUrl: 'https://deep-eyes.online', // ✅ this is required!   gzip: true,
      gzip: true,
     routes: [
-       "/"
-   
+       '/',
+       '/privacy',
+       '/terms'
      // you can also dynamically generate routes here if you have a CMS
-   ]
+   ],
+   hostname: 'https://deep-eyes.online'
  },
 
 app: {
