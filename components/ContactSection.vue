@@ -26,7 +26,7 @@
               </div>
               <div>
                 <div class="text-white font-semibold">Email</div>
-                <div class="text-gray-300">contact@deep-eyes.dev</div>
+                <div class="text-gray-300">elabdo@deep-eyes.online</div>
               </div>
             </div>
             
@@ -38,7 +38,7 @@
               </div>
               <div>
                 <div class="text-white font-semibold">Phone</div>
-                <div class="text-gray-300">+1 (555) 123-4567</div>
+                <div class="text-gray-300">+201505811158</div>
               </div>
             </div>
             
@@ -51,7 +51,7 @@
               </div>
               <div>
                 <div class="text-white font-semibold">Location</div>
-                <div class="text-gray-300">San Francisco, CA</div>
+                <div class="text-gray-300"> Alexandria,Egypt</div>
               </div>
             </div>
           </div>
